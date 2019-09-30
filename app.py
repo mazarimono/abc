@@ -3,6 +3,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 import plotly
 import plotly.express as px
+import os
 
 gapminder = plotly.data.gapminder()
 btm = html.Div([
