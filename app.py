@@ -7,7 +7,7 @@ import os
 
 gapminder = plotly.data.gapminder()
 btm = html.Div([
-    dcc.Link("メニューに戻る", href="/")
+    dcc.Link("メニューに戻る test", href="/")
 ], style={"textAlign": "center"})
 
 app = dash.Dash(__name__)
